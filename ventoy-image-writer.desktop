@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Ventoy Image Writer
+Comment=Write ISO images to USB devices using Ventoy
+Exec=env QT_QPA_PLATFORM=xcb /home/ehsant/.local/share/bin/ventoy-image-writer
+Icon=drive-harddisk-usb
+Terminal=false
+Categories=System;Utility;
+Keywords=ventoy;iso;usb;image;writer;
+StartupNotify=true
+MimeType=application/x-cd-image;application/x-iso9660-image;
